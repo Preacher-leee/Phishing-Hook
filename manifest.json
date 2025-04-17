@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Hook",
+  "description": "Upload and analyze .eml files to detect phishing emails with digital detective insights.",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/hook48.png"
+  },
+  "icons": {
+    "16": "icons/hook16.png",
+    "48": "icons/hook48.png",
+    "128": "icons/hook128.png"
+  }
+}
